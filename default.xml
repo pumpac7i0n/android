@@ -10,6 +10,9 @@
  <remote  name="cm"
            fetch="https://github.com/Cyanogenmod" />
            
+ <remote  name="slim"
+           fetch="https://github.com/slimroms" />
+           
 <remote  name="omnirom"
            fetch="https://github.com/omnirom" />
 
