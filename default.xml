@@ -16,7 +16,7 @@
            sync-j="4" />
 
  
-  <project path="android" name="android" remote="sawed0ff" revision="android-5.1" />
+  <project path="manifest" name="android_manifest" remote="sawed0ff" revision="android-5.1" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="sawed0ff" revision="android-5.1" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="sawed0ff" revision="android-5.1" groups="pdk" />
