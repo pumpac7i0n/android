@@ -4,7 +4,10 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote  name="cm"
+  <remote  name="sawed0ff"
+           fetch="https://github.com/pumpac7i0n" />
+           
+ <remote  name="cm"
            fetch="https://github.com/Cyanogenmod" />
 
   <remote  name="aosp"
