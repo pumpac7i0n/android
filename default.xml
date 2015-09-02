@@ -307,7 +307,7 @@
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/support" name="android_frameworks_support" remote="omnirom" revision="android-5.1" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
-  <project path="frameworks/webview" name="android_frameworks_webview" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" />
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="sawed0ff" revision="android-5.1" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="omnirom" revision="android-5.1" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="omnirom" revision="android-5.1" />
