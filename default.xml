@@ -488,6 +488,8 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="th" revision="cm-12.1" />
+    <project path="vendor/sawed0ff" name="vendor_sawed0ff" remote="sawed0ff" revision="android-5.1" />
+
   
   <project path="external/libsepol" name="android_external_libsepol" groups="pdk" remote="cm" revision="cm-12.1" />
   <project path="kernel/lge/g3" name="g3_kernel" remote="sawed0ff" revision="android-5.1" />
