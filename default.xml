@@ -478,8 +478,7 @@
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="sawed0ff" revision="android-5.1" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="sawed0ff" revision="android-5.1" />
-  <project path="system/vold" name="android_system_vold" remote="sawed0ff" revision="android-5.1" groups="pdk" />
-  <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" remote="github" revision="cm-12.1" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
