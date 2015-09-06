@@ -125,7 +125,7 @@
   <project path="external/flac" name="android_external_flac" remote="sawed0ff" revision="android-5.1" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" />
+  <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk-cw-fs" remote="github" revision="cm-12.1" />
   <project path="external/fuse" name="android_external_fuse" remote="sawed0ff" revision="android-5.1" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" />
