@@ -13,7 +13,7 @@
  <remote  name="slim"
            fetch="https://github.com/slimroms" />
            
- <remote  name="th"
+ <remote  name="tm"
            fetch="https://github.com/TheMuppets" />
            
 <remote  name="omnirom"
@@ -23,7 +23,7 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
-  <default revision="refs/tags/android-5.1.1_r13"
+  <default revision="refs/tags/android-5.1.1_r18"
            remote="aosp"
            sync-j="8" />
 
@@ -41,9 +41,9 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="android_development" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" />
-  <project path="device/common" name="device/common" groups="pdk-cw-fs" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="sawed0ff" revision="android-5.1" groups="pdk" />
+  <project path="development" name="android_development" groups="pdk-cw-fs" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="sawed0ff" revision="android-5.1" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="sawed0ff" revision="android-5.1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -294,8 +294,9 @@
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" remote="github" revision="cm-12.1" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/cards" name="frameworks_opt_cards" groups="pdk-cw-fs" remote="slim" revision="lp5.1" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="omnirom" revision="android-5.1" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
@@ -311,10 +312,10 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="android_frameworks_support" remote="omnirom" revision="android-5.1" />
+  <project path="frameworks/support" name="android_frameworks_support" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="sawed0ff" revision="android-5.1" groups="pdk-cw-fs" />
-  <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="omnirom" revision="android-5.1" />
+  <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="omnirom" revision="android-5.1" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="omnirom" revision="android-5.1" />
@@ -382,7 +383,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="sawed0ff" revision="android-5.1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
@@ -429,9 +429,6 @@
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
-  <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
@@ -491,15 +488,11 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="th" revision="cm-12.1" />
-    <project path="vendor/sawed0ff" name="vendor_sawed0ff" remote="sawed0ff" revision="android-5.1" />
-
-    <project path="kernel/lge/g3" name="g3_kernel" remote="sawed0ff" revision="android-5.1" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-12.1" />
+  <project path="vendor/sawed0ff" name="vendor_sawed0ff" remote="sawed0ff" revision="android-5.1" />
+  <project path="kernel/lge/g3" name="g3_kernel" remote="sawed0ff" revision="android-5.1" />
   
   <!--project path="device/lge/ls990" name="android_device_ls990" remote="sawed0ff" revision="android-5.1" /> -->
   <!--project path="device/lge/g3-common" name="android_device_g3-common" remote="sawed0ff" revision="android-5.1" /> -->
 
-
-
-  
 </manifest>
