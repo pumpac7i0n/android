@@ -41,7 +41,6 @@
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
-  <project path="development" name="android_development" groups="pdk-cw-fs" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="sawed0ff" revision="android-5.1" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="sawed0ff" revision="android-5.1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
