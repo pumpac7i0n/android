@@ -88,7 +88,7 @@
   <project path="external/exfat" name="android_external_exfat" remote="sawed0ff" revision="android-6.0" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="sawed0ff" revision="android-6.0" groups="pdk" />
+  <project path="external/f2fs-tools" name="Cyanogenmod/android_external_f2fs-tools" remote="cm" revision="cm-13.0" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" />
   <project path="external/flac" name="android_external_flac" remote="sawed0ff" revision="android-6.0" groups="pdk" />
