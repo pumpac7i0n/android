@@ -483,7 +483,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
-  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-13.0.0" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-13.0" />
   <project path="vendor/sawed0ff" name="vendor_sawed0ff" remote="sawed0ff" revision="android-6.0" />
   <project path="kernel/lge/g3" name="android_kernel_lge_g3" remote="github" revision="cm-13.0" />
   
