@@ -281,7 +281,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" remote="github" revision="cm-12.1" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="sawed0ff" revision="android-6.0" groups="pdk" />
+  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="mm6.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="sawed0ff" revision="android-6.0" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
