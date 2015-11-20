@@ -275,7 +275,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="slim" revision="mm6.0" />
+  <project path="frameworks/av" name="frameworks_av" remote="slim" revision="mm6.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="sawed0ff" revision="android-6.0" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -332,7 +332,7 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="github" revision="cm-13.0" groups="invensense" />
-  <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="slim" revision="mm6.0" />  
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="slim" revision="mm6.0" />  
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="android_hardware_nvidia_tegra124" groups="tegra124" remote="cm" revision="cm-13.0" />
