@@ -26,7 +26,7 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
- <default revision="refs/tags/6.0.1_r16"
+ <default revision="refs/tags/6.0.1_r24"
            remote="aosp"
            sync-c="true"
            sync-j="8" />
