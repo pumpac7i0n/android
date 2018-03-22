@@ -2,13 +2,13 @@
 <!--Please do not manually edit this file-->
 <manifest>
 
-  <project name="pumpac7i0n/android_kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="android-8.1" />
   <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="omnirom" revision="android-8.1" />
-  <project name="pumpac7i0n/android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="android-8.1" />
-  <project name="android_packages_apps_SnapdragonCamera2" path="packages/apps/SnapdragonCamera2" remote="omnirom" revision="android-8.0" />
+  <project name="android_packages_apps_SnapdragonCamera2" path="packages/apps/SnapdragonCamera2" remote="omnirom" revision="android-8.1" />
   <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="omnirom" revision="android-8.1" />
   <project name="ezio84/abc_vendor_huawei" path="vendor/huawei" remote="github" revision="o2" />
-
+  
   <remove-project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
+  <project name="pumpac7i0n/android_kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="android-8.1" />
+  <project name="pumpac7i0n/android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="android-8.1" />
   <project name="pumpac7i0n/android_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller" remote="github" revision="android-8.1" />
 </manifest>
