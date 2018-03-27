@@ -5,6 +5,6 @@
   <remove-project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project name="pumpac7i0n/android_kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="android-8.1" />
   <project name="pumpac7i0n/android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="android-8.1" />
-  <project name="abc_packages_apps_PackageInstaller" path="ezio84/packages/apps/PackageInstaller"  remote="github" revision="o2" />
+  <project name="ezio84/abc_packages_apps_PackageInstaller" path="packages/apps/PackageInstaller"  remote="github" revision="o2" />
 
 </manifest>
